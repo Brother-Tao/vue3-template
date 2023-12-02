@@ -1,35 +1,33 @@
-# vue3-template
+1.看本地分支
 
-This template should help get you started developing with Vue 3 in Vite.
+git branch
 
-## Recommended IDE Setup
+2. 查看远程分支
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+git branch -r 3. 查看所有分支
 
-## Customize configuration
+git branch -a 4. 创建本地新分支
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+git branch [branch name]
 
-## Project Setup
+5. 切换到新分支
 
-```sh
-pnpm install
-```
+git checkout [branch name]
 
-### Compile and Hot-Reload for Development
+6. 创建分支同时也切换分支
 
-```sh
-pnpm dev
-```
+git checkout -b [branch name]
 
-### Compile and Minify for Production
+7. 推送本地新分支到远程仓库
 
-```sh
-pnpm build
-```
+git push origin [branch name]
 
-### Lint with [ESLint](https://eslint.org/)
+git上传规范：
 
-```sh
-pnpm lint
-```
+feat：新增功能
+fix：修复bug
+docs：修改文档
+style：修改代码风格
+refactor：重构代码
+test：增加或修改测试代码
+chore：修改构建过程或辅助工具
