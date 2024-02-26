@@ -36,3 +36,8 @@ npm 临时换源： npm --registry https://registry.npmmirror.com install <包>
 
 git config user.name "name"
 git config user.email "email"
+
+
+<!-- 只拉取代码创库某一分支的代码 -->
+$ git clone -b dev开发分支 https://github.com/521/springboot-rabbitmq.git
+
