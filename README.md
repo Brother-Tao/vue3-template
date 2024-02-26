@@ -31,3 +31,8 @@ style：修改代码风格
 refactor：重构代码
 test：增加或修改测试代码
 chore：修改构建过程或辅助工具
+
+npm 临时换源： npm --registry https://registry.npmmirror.com install <包>
+
+git config user.name "name"
+git config user.email "email"
