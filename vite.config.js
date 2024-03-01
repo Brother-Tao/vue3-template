@@ -44,8 +44,8 @@ export default defineConfig({
   build: {
     outDir: './dist',    // 打包文件的输出目录
     assetsDir: 'static',    // 静态文件的存放目录
-    terserOptions: {
-      //清除console和debugger
+    minify: "terser",
+    terserOptions: { //清除console和debugger
       compress: {
         drop_console: true,
         drop_debugger: true,
